@@ -20,11 +20,21 @@ ul, li {
   list-style: none;
 }
 
+.list-group {
+  margin-bottom: 20px;
+}
+
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   background-color: #eee;
   border-color: #ddd;
   color: #fff;
   z-index: 2;
+}
+
+.usuario-detalhes {
+  border-left: solid 3px #ddd;
+  padding: 5px 10px;
+  font-size: 1.3em;
 }
 
 footer nav {

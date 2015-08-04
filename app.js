@@ -4,13 +4,16 @@
   var usuarios = this;
   usuarios = [
     {
-      id:1, nome: 'João', email: 'joao@gmail.com'
+      id:1, nome: 'João', email: 'joao@gmail.com', idade: 25
     },
     {
-      id:2, nome: 'Maria', email: 'maria@gmail.com'
+      id:2, nome: 'Maria', email: 'maria@gmail.com', idade: 21
     },
     {
-      id:3, nome: 'Joana', email: 'joana@gmail.com'
+      id:3, nome: 'Joana', email: 'joana@gmail.com', idade: 35
+    },
+    {
+      id:4, nome: 'Fulano', email: 'fulano@gmail.com', idade: 30
     }
   ];
 
