@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+  <head>
+    <title> Single Page Applications </title>
+    <meta charset="utf-8">
+    <meta name="description" content=" Single Page Applications  with AngularUI Router">
+    <meta name="author" content="Jeremias Pereira - jeremiastpereira@gmail.com">
+    <meta name="viewport" content="width=device-width">
+
+    <script src="assets/angularjs/angular.min.js"></script>
+    <script src="assets/angularjs/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+
+    <script src="assets/jquery/jquery-1.11.3.js"></script>
+    <script src="assets/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+
+    <link href="assets/bootstrap-3.3.4/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header ui-view="header"></header>
+    <section ui-view="conteudo" class="container"></section>
+    <footer ui-view="footer"></footer>
+  </body>
+</html>

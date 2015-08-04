@@ -1,0 +1,37 @@
+  $cor-base: #63a0dd;
+
+  html {
+    font-size: 62.5%;
+  }
+
+  @font-face {
+    font-family: Raleway;
+    src: url(fonts/raleway/Raleway-Regular.ttf);
+  }
+
+  body, input, textarea {
+    font: 1.4em 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.3em;
+    color: #474646;
+  }
+
+
+  ul, li{
+    padding:0;
+    margin:0;
+    list-style: none;
+  }
+
+  .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #eee;
+    border-color: #ddd;
+    color: #fff;
+    z-index: 2;
+  }
+
+  footer nav{
+    padding-top: 10px;
+  }
+

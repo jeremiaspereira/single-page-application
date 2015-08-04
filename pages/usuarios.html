@@ -1,0 +1,15 @@
+<div ng-controller="UsuariosCtrl">
+    <div class="row">
+      <div class="col-md-4">
+          <ul list-group>
+            <li ng-repeat="usuario in usuarios"  class="list-group-item" ui-sref-active='active'>
+              <a ui-sref="usuarios.detalhes({ id:usuario.id })"> {{usuario.nome}}</a>
+            </li>
+          </ul>
+      </div>
+      <div class="col-md-8">
+        <div ui-view="usuarios.detalhes"> Selecione um usuário </div>
+      </div>
+    </div>
+  <br>
+</div>
